@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Nav section */
+.nav {
+    background-color: #F55A5A;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 40px;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+
+/* Card section */
+.card {
+    margin: 100px 100px;
+    display: flex;
+}
+
+.cardImg {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.cardContain2 {
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.cardState {
+    display: inline;
+}
+
+.googleLink {
+    display: inline;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1070px) {
+    .card {
+        display: block;
+    }
+
+    .cardContain2 {
+        margin-left: 0;
+        width: 70%;
+    }
+}
